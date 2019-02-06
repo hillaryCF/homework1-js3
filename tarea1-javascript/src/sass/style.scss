@@ -1,0 +1,41 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.space_text{
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+table {
+  background-color: #bbca2a;
+  margin-top: 30px;
+}
+.tittle-table {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+td{
+background-color: rgb(194, 160, 11);
+text-align: center;
+}
+label {
+  margin-left: 30px;
+}
+#date {
+  border-radius: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+#button-reset {
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 6%;
+  border-color: #81269057;
+}
+#button-save {
+  border-radius: 8px;
+  width: 6%;
+  border-color: #81269057;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homework 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+</head>
+<body>
+    <h2>Add Bill</h2>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Bill Name" name="hola" class="space_text" id="name" value="" >
+        <label for="amount">Amount</label>
+        <input type="number" placeholder="Bill Amount" class="space_text" id="amount" value="">
+        <label for="date">Date</label>
+        <input type="date" value="" id="date">
+        <label for="options">Type</label>
+        <select id="options" name="opcions">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+        <button id="button-reset">Reset</button>
+        <button id="button-save">Save</button>
+    </div>
+    <table>
+      <tr>
+        <th class="tittle-table">Name</th>
+        <th class="tittle-table">Type</th>
+        <th class="tittle-table">Date</th>
+        <th class="tittle-table">Amount</th>
+      <tbody id="trContainer">
+
+      </tbody>
+    </table>
+
+    <div id="conatiner">
+      <tr id="table"></tr>
+      <!-- <tr>
+        <td>Bills A </td>
+        <td>Bills B </td>
+        <td>Bills C </td>
+        <td>Bills D </td>
+      </tr> -->
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
